@@ -1,0 +1,6 @@
+path: /content
+train: train/WIDER_train/images
+val:   val/WIDER_val/images
+
+names: ["face"]
+nc: 1
