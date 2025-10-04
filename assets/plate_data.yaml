@@ -1,0 +1,6 @@
+nc: 1
+names: ["licence"]
+
+train: /content/train/images
+val: /content/val/images
+test: /content/test/images
