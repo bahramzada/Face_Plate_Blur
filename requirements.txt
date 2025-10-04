@@ -1,0 +1,28 @@
+# ===== Core (runtime: merged_blur.py + Tkinter UI) =====
+ultralytics==8.3.204
+opencv-python>=4.10.0
+pillow>=10.4.0
+numpy>=1.26
+tqdm>=4.66.0
+pyyaml>=6.0.1
+psutil>=5.9.8
+
+# ===== Notebooks (train və EDA üçün) =====
+pandas>=2.2.0
+matplotlib>=3.8.0
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# ===== (İstəyə görə) model qiymətləndirmə və util paketləri =====
+scikit-learn>=1.4.0
+
+# ===== (İstəyə görə) scraping/tools — plaka dataseti hazırlığı üçün =====
+requests>=2.32.0
+selenium>=4.24.0
+webdriver-manager>=4.0.2
+
+# QEYD:
+# 1) Torch-u ayrıca quraşdır (aşağıdakı bölməyə bax), sonra bu faylı qur:
+#    pip install -r requirements.txt
+# 2) Tkinter Windows-da Python ilə gəlir. Linux-da sistem paket menecerindən quraşdır:
+#    sudo apt-get install python3-tk
