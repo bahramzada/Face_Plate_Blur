@@ -2,12 +2,24 @@
 
 An end-to-end pipeline to **detect and anonymize faces & license plates** in images/videos using **YOLOv8**, with a **desktop Tkinter app** and a batch **merged_blur.py** script. Trained on **WIDER FACE** (faces) and a **custom license-plate dataset** (5h dashcam frames + publicly available images). Final output applies **Gaussian Blur** on detected regions, with simple tracking for stable video anonymization.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bahramzada/Face_Plate_Blur/blob/main/face_dataset_train.ipynb) (Face)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bahramzada/Face_Plate_Blur/blob/main/plate_dataset_train.ipynb) (Plate)
-
-
----
+<p align="center">
+  <a href="https://colab.research.google.com/github/bahramzada/Face_Plate_Blur/blob/main/face_dataset_train.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Face Colab" width="140" height="25"/>
+    <br/><b>Face Train</b>
+  </a>
+</p>
+<p align="center">
+  <a href="https://colab.research.google.com/github/bahramzada/Face_Plate_Blur/blob/main/plate_dataset_train.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Plate Colab" width="140" height="25"/>
+    <br/><b>Plate Train</b>
+  </a>
+</p>
+<p align="center">
+  <a href="https://huggingface.co/spaces/bahramzada/face_plate_blur">
+    <img src="https://img.shields.io/badge/Demo-HuggingFace-blue?logo=huggingface" alt="DemoAPP" width="140" height="25"/>
+    <br/><b>Demo App</b>
+  </a>
+</p>
 
 <p align="center">
   <img src="assets/introduce_gif.gif" alt="DEMO"/>
